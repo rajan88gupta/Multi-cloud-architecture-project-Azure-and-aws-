@@ -1,24 +1,28 @@
-# Multi-cloud-architecture-project-Azure-and-aws-
-Multi-Cloud Architecture Team to design, implement, test, and deploying a multi-tier web-based architecture using Microsoft Azure and Amazon Web Services (AWS) to host a WordPress website.
-## 🔍 Overview
-This repository contains a complete, well-documented example project that demonstrates a hybrid multi-cloud architecture connecting **Azure** and **AWS**.  
-Azure is used for identity, DNS and monitoring, while AWS hosts the application and database. A site-to-site VPN provides secure private connectivity between the two clouds.
+# Cloud Engineering Portfolio – AWS & Azure
 
-## 📁 What is in this repo
-- diagram – architecture diagrams (included image)
-- azure – Terraform skeletons, scripts and example policies
-- aws – Terraform skeletons, Lambda backup script and IAM policies
-- vpn – VPN configuration templates and OpenVPN setup guide
-- monitoring – monitoring and alerting guides for Azure & AWS
-- docs – a detailed step-by-step setup guide you can follow and share
+This repository showcases my hands-on cloud engineering projects,
+focused on AWS, Microsoft Azure, multi-cloud architecture, security,
+and infrastructure automation.
 
+## About Me
+Junior Cloud Engineer based in New Zealand with strong practical
+experience across AWS and Azure, including a real-world multi-cloud
+migration project from on-premises infrastructure to the cloud.
 
-## 🔐 Important: Secrets & State files
-- DO NOT commit Terraform state files (`*.tfstate`), provider credentials, or any files that include secrets.
-- Use .gitignore to exclude sensitive files (this repo includes a `.gitignore`).
+## Skills Demonstrated
+- AWS & Azure Cloud Architecture
+- Multi-Cloud Migration (On-Prem to Cloud)
+- Cloud Security (AWS IAM, Azure AD, MFA)
+- Infrastructure as Code (Terraform)
+- High Availability & Load Balancing
+- Monitoring & Logging
+- Backup & Disaster Recovery
 
-## 🧭 Next steps
-1. Open `docs/step-by-step-setup.md` — follow it to deploy components into Azure and AWS.
-2. Customize the Terraform variables in `azure/terraform/` and `aws/terraform/`.
-3. Set up the VPN following `vpn/azure-vpn-gateway-config.txt` and `vpn/aws-vpn-customer-gateway-config.txt`.
-4. Configure monitoring and alerts using files under `monitoring/`.
+## Projects
+1. Multi-Cloud Migration – On-Prem to AWS & Azure
+2. Secure AWS VPC Architecture
+3. WordPress Deployment on AWS
+4. Infrastructure Automation using Terraform
+
+Each project includes documentation, architecture diagrams,
+and configuration examples.
